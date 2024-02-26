@@ -1,1 +1,0 @@
-# logica-numeros-primos

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- Nome: danilo batista bezerra   n°: 3  Turma: 3°J -->
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numeros Primos <title>
+
+        <script>
+
+            function recebeNumero (){
+                var canvas = document.getElementById('meuCanvas');
+                if (canvas.getContext){
+                    var cntxt = canvas.getContext('2d');
+                    var maxWidth = 300;
+                    var lineHeight = 35;
+                    var x = (canvas.width - maxWidth) / 2;
+                    var y = 60;
+                    var grad =  cntxt.createLinearGradient(0, 0, canvas.width, 0);
+                    grad.addColorStop(0,"rgb(255,0, 0)");
+                    grad.addColorStop(0.5, "rgb(255, 255, 255)");
+                    grad.addColorStop(1,"rgb(0, 0, 0)");
+
+                    var N1 = parseInt(documen.getElementById("Numero1").value, 10);
+                    cntxt.fillStyle = "rgb(255, 255, 255)";
+                    cntxt.fillRect (0, 0, canvas.width, canvas.height);
+                    cntxt.font="30px Comic Sans MS";
+
+                }
+            }
+        </script>
+</head>
+<body>
+    <script>
+</head>        
+    </script>   
+</body>
+</html>
